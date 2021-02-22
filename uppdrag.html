@@ -137,7 +137,15 @@
 
             <h2 class="R-bokstav">Kom till infodisken!</h2>
 		  
-		  <h1 class="GOOD">G</h1>
+		     <h1 class="GOOD">G</h1>
+		    <h1 class="GOOD1">R</h1>
+		    <h1 class="GOOD2">A</h1>
+		    <h1 class="GOOD3">T</h1>
+		    <h1 class="GOOD4">T</h1>
+		    <h1 class="GOOD5">I</h1>
+		    <h1 class="GOOD6">S</h1>
+
+		  
 
 
           </div>
@@ -187,35 +195,40 @@
     			if (typeof(Storage) !== "undefined") {
   					if (sessionStorage.uppdrag1 == "klart") {
   						$("#uppdrag1").addClass("show");
-						
-						
-						
-						("col-lg-12 text-center").addClass("show");
+				("GOOD").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag2 == "klart") {
   						$("#uppdrag2").addClass("show");
+						
+						("GOOD1").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 
 					}
 					if (sessionStorage.uppdrag3 == "klart") {
   						$("#uppdrag3").addClass("show");
+						  <h1 class="GOOD2">G</h1>
+
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag4 == "klart") {
   						$("#uppdrag4").addClass("show");
+						("GOOD3").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag5 == "klart") {
   						$("#uppdrag5").addClass("show");
+						("GOOD4").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag6 == "klart") {
   						$("#uppdrag6").addClass("show");
+						("GOOD5").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag7 == "klart") {
   						$("#uppdrag7").addClass("show");
+						("GOOD6").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
 					}
 					if (sessionStorage.uppdrag8 == "klart") {
@@ -239,7 +252,7 @@
 				}
 
 
-        if(klaradeUppdrag >= 11)
+        if(klaradeUppdrag >= 8)
         {
           window.location.href = "./klar.html";
         }
