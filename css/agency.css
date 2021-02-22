@@ -6,7 +6,8 @@
 
 
 
-body.nsfw.sensitive {
+
+.sensitive {
     display: none!important;
 }
 
