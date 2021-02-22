@@ -136,11 +136,9 @@
           <div class="col-lg-12 text-center">
 		  <h2 class="G-bokstav">Behöver du hjälp?</h2>
 
-            <h2 class="-webkit-input-placeholder">Kom till infodisken!</h2>
+            <h2 class="-webkit-input-placeholder" p style="display: none;">Kom till infodisken!</h2>
 		  
-		  <p style="display: none;"> 
-GRATTIS
-</p> 
+		
           </div>
         </div>
  
@@ -192,6 +190,8 @@ GRATTIS
   					if (sessionStorage.uppdrag1 == "klart") {
   						$("#uppdrag1").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
+						
+						
 											
 					}
 					if (sessionStorage.uppdrag2 == "klart") {
