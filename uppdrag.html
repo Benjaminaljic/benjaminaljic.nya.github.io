@@ -19,6 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css'>
+
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
     <!--User stylesheet-->
@@ -136,16 +137,11 @@
 		  <h2 class="G-bokstav">Behöver du hjälp?</h2>
 
             <h2 class="R-bokstav">Kom till infodisken!</h2>
-		  
-		     <h1 class="GOOD">G</h1>
-		    <h1 class="GOOD1">R</h1>
-		    <h1 class="GOOD2">A</h1>
-		    <h1 class="GOOD3">T</h1>
-		    <h1 class="GOOD4">T</h1>
-		    <h1 class="GOOD5">I</h1>
-		    <h1 class="GOOD6">S</h1>
-
-		  
+  
+<body>
+<span class="sensetive">Hi</span>
+<span class="sensitive">If you are reading this, you are over 18.</span>
+</body>		  
 
 
           </div>
@@ -188,7 +184,10 @@
 
 
     		<script>
+	
+			
 		
+			
 				
 			$( document ).ready(function() {
           var klaradeUppdrag = 0;
@@ -196,6 +195,8 @@
   					if (sessionStorage.uppdrag1 == "klart") {
   						$("#uppdrag1").addClass("show");
               klaradeUppdrag = klaradeUppdrag + 1;
+						
+						document.body.classList.add("nsfw");						
 					}
 					if (sessionStorage.uppdrag2 == "klart") {
   						$("#uppdrag2").addClass("show");
