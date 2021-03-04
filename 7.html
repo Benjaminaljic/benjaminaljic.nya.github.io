@@ -28,7 +28,7 @@
   function validateForm() {
     var svar = document.forms["contactForm"]["answer"].value.toLowerCase();
 
-    if (svar == "cykelmysteriet, bröderna lejonhjärta, handbok för superhjältar" ){
+    if (svar == "cykelmysteriet, bröderna lejonhjärta, handbok för superhjältar" | svar == "bröderna lejonhjärta, cykelmysteriet, handbok för superhjältar" ){
         //return true;
         sessionStorage.setItem('uppdrag7', 'klart');
     }else{
