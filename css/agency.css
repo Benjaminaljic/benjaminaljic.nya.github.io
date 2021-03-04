@@ -276,11 +276,13 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
+    font-style: normal;
+    line-height: 35px;
     margin-bottom: 25px;
-    font-family: 'bangers', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  
   }
+  
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
