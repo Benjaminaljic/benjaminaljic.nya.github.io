@@ -136,7 +136,7 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: blueviolet;
-  font-family: 'Bangers', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
@@ -144,7 +144,6 @@ img::-moz-selection {
   color: #FFFFFF; /*#fed136*/
   font-weight: 700;
     line-height: 75px;
-    margin-bottom: 50px;
     font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     text-transform: uppercase;
 }
