@@ -18,15 +18,15 @@ p {
 }
 
 a {
-  color: #blueviolet;
+  color: blueviolet;
 }
 
 a:hover {
-  color: #blueviolet;
+  color: blueviolet;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: blueviolet !important;
 }
 
 h1,
@@ -82,8 +82,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #blueviolet !important;
-  border-color: #blueviolet !important;
+  background-color: blueviolet !important;
+  border-color: blueviolet !important;
   color: white;
 }
 
@@ -163,7 +163,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: blueviolet;
 }
 
 @media (max-width: 600px) {
