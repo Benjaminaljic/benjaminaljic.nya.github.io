@@ -46,8 +46,8 @@ section {
 @media (min-width: 768px) {
 section h2.section-heading {
   font-size: 25px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 }
 section h3.section-subheading {
@@ -678,6 +678,7 @@ section#contact {
 
 section#contact .section-heading {
   color: #fff;
+  margin: 75px;
 }
 
 section#contact .form-group {
