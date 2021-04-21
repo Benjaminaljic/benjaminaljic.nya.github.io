@@ -58,6 +58,7 @@ section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
