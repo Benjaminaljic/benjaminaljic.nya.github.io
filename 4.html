@@ -26,9 +26,9 @@
   <script>
 
   function validateForm() {
-    var svar = document.forms["contactForm"]["answer"]();
+    var svar = document.forms["contactForm"]["answer"].value();
 
-    if (svar == "cool"){
+    if (svar == 964){
         //return true;
         sessionStorage.setItem('uppdrag4', 'klart');
      
