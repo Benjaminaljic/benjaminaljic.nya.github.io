@@ -26,11 +26,12 @@
   <script>
 
   function validateForm() {
-    var svar = document.forms["contactForm"]["answer"].value();
+    var svar = document.forms["contactForm"]["answer"].value.toLowerCase();
 
-    if (svar == "964"){
+    if (svar == "cool"){
         //return true;
-        sessionStorage.setItem('uppdrag4', 'klart');
+       console.log("sant");
+       sessionStorage.setItem('uppdrag4', 'klart');
      
        <title>"T"</title>      
       
@@ -42,10 +43,6 @@
     }
   }
 
-    
-   
-    
-    
     
     
     
