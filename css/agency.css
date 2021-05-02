@@ -116,7 +116,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: transparent;
 }
 
 .navbar-brand{
@@ -148,6 +148,14 @@ img::-moz-selection {
     font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    padding: 20px 0;
+  }
+
+
+
+
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: blueviolet;
