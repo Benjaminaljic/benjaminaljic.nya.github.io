@@ -142,7 +142,6 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  text-shadow: 2px 2px #000000;
   color: #FFFFFF; /*#fed136*/
   font-weight: 700;
     line-height: 75px;
@@ -208,7 +207,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #8a2be29e;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -219,7 +218,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: black;
   background-image: url(../img/bgfinal.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -233,7 +232,6 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  text-shadow: 2px 2px #000000;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -246,7 +244,6 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  text-shadow: 2px 2px #000000;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
