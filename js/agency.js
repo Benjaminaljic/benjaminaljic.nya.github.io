@@ -14,18 +14,18 @@
       }
     }
   });
-
+  /*
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  /* Activate scrollspy to add active class to navbar items on scroll
+// Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 56
   });
-*/
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
@@ -46,5 +46,7 @@
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $('.navbar').removeClass('d-none');
   })
+  
+  */
 
 })(jQuery); // End of use strict
