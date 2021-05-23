@@ -58,9 +58,9 @@ font-family: Arial;
 	height: 600px;
 }
 
-@media (max-width: 450px) .powersuite {
+@media (max-width: 450px) #powersuite {
 
-height: 400px;
+height: 300px;
 
 
 }
