@@ -55,8 +55,17 @@ font-family: Arial;
 
 #powersuite{
 	position: relative;
-	height: 400px;
+	height: 600px;
 }
+
+@media (max-width: 450px) .powersuite {
+
+height: 400px;
+
+
+}
+
+
 
 @keyframes fadeIn { 
   from { opacity: 0; } 
