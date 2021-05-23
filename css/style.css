@@ -55,18 +55,10 @@ font-family: Arial;
 
 #powersuite{
 	position: relative;
-	height: 150%;
-}
-
-@media (max-width: 450px){
-
-#powersuite{
-	position: relative;
-	height: 300px;
+	max-height: 50vh;
 }
 
 
-}
 
 
 
