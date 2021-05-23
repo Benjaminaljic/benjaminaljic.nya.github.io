@@ -53,15 +53,32 @@ font-family: Arial;
 	visibility: visible;
 }
 
+
+
+
+@media (min-width: 970px) {
+
+		
 #powersuite{
 	position: relative;
-	max-height: 50vh;
+	max-height: 600px;
+}
+	
+	
 }
 
+@media (max-width: 970px) {
 
-
-
-
+	
+	
+  
+#powersuite{
+	position: relative;
+	max-height: 400px;
+}
+	
+	
+}
 
 
 
