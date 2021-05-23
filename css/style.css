@@ -54,14 +54,13 @@ font-family: Arial;
 }
 
 
-
-
+		
 @media (min-width: 970px) {
 
 		
 #powersuite{
 	position: relative;
-	max-height: 600px;
+	height: 600px;
 }
 	
 	
@@ -74,11 +73,12 @@ font-family: Arial;
   
 #powersuite{
 	position: relative;
-	max-height: 400px;
+	height: 400px;
 }
 	
 	
 }
+
 
 
 
