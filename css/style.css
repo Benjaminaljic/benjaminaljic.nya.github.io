@@ -58,12 +58,20 @@ font-family: Arial;
 	height: 600px;
 }
 
-@media (max-width: 450px) #powersuite {
+@media (max-width: 450px)!important{
 
-height: 300px;
+#powersuite{
+	position: relative;
+	height: 300px;
+}
 
 
 }
+
+
+
+
+
 
 
 
