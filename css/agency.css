@@ -136,7 +136,6 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  margin-bottom:50px;
   background-color: blueviolet;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
